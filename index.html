@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Barbearia Premium</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ==============================
+       INTRO
+  =============================== -->
+
+  <div id="intro">
+    <div class="intro-content">
+      <p>BARBEARIA</p>
+      <h1>PREMIUM</h1>
+      <span>ESTILO • TRADIÇÃO • QUALIDADE</span>
+    </div>
+  </div>
+
+
+  <!-- ==============================
+       CONTEÚDO PRINCIPAL
+  =============================== -->
+
+  <main class="hidden">
+
+    <!-- ==============================
+         CABEÇALHO
+    =============================== -->
+
+    <header class="header">
+
+      <div class="logo">
+        <span>BARBEARIA</span>
+        <strong>PREMIUM</strong>
+      </div>
+
+      <nav>
+        <a href="#inicio">Início</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#barbeiros">Barbeiros</a>
+        <a href="#agendamento">Agendamento</a>
+        <a href="#contato">Contato</a>
+      </nav>
+
+      <a href="#agendamento" class="header-button">
+        Agendar
+      </a>
+
+    </header>
+
+
+    <!-- ==============================
+         HERO
+    =============================== -->
+
+    <section id="inicio" class="hero">
+
+      <div class="hero-content">
+
+        <p class="hero-subtitle">
+          BARBEARIA PREMIUM
+        </p>
+
+        <h1>
+          SEU ESTILO.<br>
+          SEU MOMENTO.
+        </h1>
+
+        <p class="hero-description">
+          Cortes modernos, barba e cuidados masculinos
+          em um ambiente pensado para você.
+        </p>
+
+        <div class="hero-buttons">
+
+          <a href="#agendamento" class="button primary">
+            Agendar horário
+          </a>
+
+          <a href="#servicos" class="button secondary">
+            Ver serviços
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ==============================
+         SERVIÇOS
+    =============================== -->
+
+    <section id="servicos" class="section">
+
+      <div class="section-title">
+
+        <span>O QUE FAZEMOS</span>
+
+        <h2>
+          Nossos Serviços
+        </h2>
+
+        <p>
+          Escolha o serviço que deseja realizar.
+        </p>
+
+      </div>
+
+
+      <div class="services-container">
+
+
+        <!-- SERVIÇO 1 -->
+
+        <div class="service-card">
+
+          <div class="service-icon">
+            ✂
+          </div>
+
+          <h3>
+            Corte Masculino
+          </h3>
+
+          <p>
+            Corte tradicional ou moderno,
+            de acordo com seu estilo.
+          </p>
+
+          <strong>
+            R$ 35,00
+          </strong>
+
+          <button
+            class="service-button"
+            data-service="Corte Masculino"
+            data-price="35,00">
+
+            Agendar
+
+          </button>
+
+        </div>
+
+
+        <!-- SERVIÇO 2 -->
+
+        <div class="service-card">
+
+          <div class="service-icon">
+            🧔
+          </div>
+
+          <h3>
+            Barba
+          </h3>
+
+          <p>
+            Modelagem e acabamento completo
+            para sua barba.
+          </p>
+
+          <strong>
+            R$ 25,00
+          </strong>
+
+          <button
+            class="service-button"
+            data-service="Barba"
+            data-price="25,00">
+
+            Agendar
+
+          </button>
+
+        </div>
+
+
+        <!-- SERVIÇO 3 -->
+
+        <div class="service-card featured">
+
+          <div class="service-icon">
+            ★
+          </div>
+
+          <h3>
+            Corte + Barba
+          </h3>
+
+          <p>
+            O combo completo para renovar
+            seu visual.
+          </p>
+
+          <strong>
+            R$ 55,00
+          </strong>
+
+          <button
+            class="service-button"
+            data-service="Corte + Barba"
+            data-price="55,00">
+
+            Agendar
+
+          </button>
+
+        </div>
+
+
+        <!-- SERVIÇO 4 -->
+
+        <div class="service-card">
+
+          <div class="service-icon">
+            ✦
+          </div>
+
+          <h3>
+            Sobrancelha
+          </h3>
+
+          <p>
+            Acabamento e alinhamento
+            da sobrancelha masculina.
+          </p>
+
+          <strong>
+            R$ 15,00
+          </strong>
+
+          <button
+            class="service-button"
+            data-service="Sobrancelha"
+            data-price="15,00">
+
+            Agendar
+
+          </button>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ==============================
+         BARBEIROS
+    =============================== -->
+
+    <section id="barbeiros" class="section dark-section">
+
+      <div class="section-title">
+
+        <span>NOSSA EQUIPE</span>
+
+        <h2>
+          Nossos Barbeiros
+        </h2>
+
+        <p>
+          Profissionais preparados para cuidar do seu estilo.
+        </p>
+
+      </div>
+
+
+      <div class="barbers-container">
+
+
+        <!-- BARBEIRO 1 -->
+
+        <div
+          class="barber-card"
+          data-name="João Silva"
+          data-role="Barbeiro">
+
+          <img
+            src="img/barbeiro1.jpg"
+            alt="João Silva">
+
+          <div class="barber-info">
+
+            <h3>
+              João Silva
+            </h3>
+
+            <p>
+              Barbeiro
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <!-- BARBEIRO 2 -->
+
+        <div
+          class="barber-card"
+          data-name="Carlos Souza"
+          data-role="Barbeiro">
+
+          <img
+            src="img/barbeiro2.jpg"
+            alt="Carlos Souza">
+
+          <div class="barber-info">
+
+            <h3>
+              Carlos Souza
+            </h3>
+
+            <p>
+              Barbeiro
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <!-- BARBEIRO 3 -->
+
+        <div
+          class="barber-card"
+          data-name="Pedro Santos"
+          data-role="Barbeiro">
+
+          <img
+            src="img/barbeiro3.jpg"
+            alt="Pedro Santos">
+
+          <div class="barber-info">
+
+            <h3>
+              Pedro Santos
+            </h3>
+
+            <p>
+              Barbeiro
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ==============================
+         AGENDAMENTO
+    =============================== -->
+
+    <section id="agendamento" class="booking-section">
+
+      <div class="booking-container">
+
+
+        <div class="booking-text">
+
+          <span>
+            AGENDE SEU HORÁRIO
+          </span>
+
+          <h2>
+            Reserve seu momento.
+          </h2>
+
+          <p>
+            Escolha o serviço, o barbeiro,
+            a data e o horário que deseja.
+          </p>
+
+          <p>
+            Após preencher os dados,
+            você será direcionado para o
+            WhatsApp da barbearia.
+          </p>
+
+        </div>
+
+
+        <!-- FORMULÁRIO -->
+
+        <form id="booking-form">
+
+          <!-- SERVIÇO -->
+
+          <div class="form-group">
+
+            <label for="service">
+              Serviço
+            </label>
+
+            <select id="service" required>
+
+              <option value="">
+                Escolha um serviço
+              </option>
+
+              <option value="Corte Masculino">
+                Corte Masculino - R$ 35,00
+              </option>
+
+              <option value="Barba">
+                Barba - R$ 25,00
+              </option>
+
+              <option value="Corte + Barba">
+                Corte + Barba - R$ 55,00
+              </option>
+
+              <option value="Sobrancelha">
+                Sobrancelha - R$ 15,00
+              </option>
+
+            </select>
+
+          </div>
+
+
+          <!-- BARBEIRO -->
+
+          <div class="form-group">
+
+            <label for="barber">
+              Barbeiro
+            </label>
+
+            <select id="barber" required>
+
+              <option value="">
+                Escolha um barbeiro
+              </option>
+
+              <option value="João Silva">
+                João Silva
+              </option>
+
+              <option value="Carlos Souza">
+                Carlos Souza
+              </option>
+
+              <option value="Pedro Santos">
+                Pedro Santos
+              </option>
+
+            </select>
+
+          </div>
+
+
+          <!-- DATA -->
+
+          <div class="form-group">
+
+            <label for="date">
+              Data
+            </label>
+
+            <input
+              type="date"
+              id="date"
+              required>
+
+          </div>
+
+
+          <!-- HORÁRIO -->
+
+          <div class="form-group">
+
+            <label for="time">
+              Horário
+            </label>
+
+            <select id="time" required>
+
+              <option value="">
+                Escolha um horário
+              </option>
+
+              <option value="09:00">
+                09:00
+              </option>
+
+              <option value="10:00">
+                10:00
+              </option>
+
+              <option value="11:00">
+                11:00
+              </option>
+
+              <option value="13:00">
+                13:00
+              </option>
+
+              <option value="14:00">
+                14:00
+              </option>
+
+              <option value="15:00">
+                15:00
+              </option>
+
+              <option value="16:00">
+                16:00
+              </option>
+
+              <option value="17:00">
+                17:00
+              </option>
+
+              <option value="18:00">
+                18:00
+              </option>
+
+            </select>
+
+          </div>
+
+
+          <!-- NOME -->
+
+          <div class="form-group">
+
+            <label for="name">
+              Seu nome
+            </label>
+
+            <input
+              type="text"
+              id="name"
+              placeholder="Digite seu nome"
+              required>
+
+          </div>
+
+
+          <!-- WHATSAPP -->
+
+          <div class="form-group">
+
+            <label for="phone">
+              WhatsApp
+            </label>
+
+            <input
+              type="tel"
+              id="phone"
+              placeholder="(47) 99999-9999"
+              required>
+
+          </div>
+
+
+          <button
+            type="submit"
+            class="booking-button">
+
+            Confirmar agendamento
+
+          </button>
+
+        </form>
+
+      </div>
+
+    </section>
+
+
+    <!-- ==============================
+         SOBRE
+    =============================== -->
+
+    <section class="about-section">
+
+      <div class="about-content">
+
+        <span>
+          SOBRE NÓS
+        </span>
+
+        <h2>
+          Mais que um corte.
+          <br>
+          Uma experiência.
+        </h2>
+
+        <p>
+          Nossa barbearia foi criada para oferecer
+          um atendimento de qualidade em um ambiente
+          confortável e moderno.
+        </p>
+
+        <p>
+          Aqui você encontra cortes, barba e cuidados
+          masculinos feitos por profissionais.
+        </p>
+
+      </div>
+
+    </section>
+
+
+    <!-- ==============================
+         CONTATO
+    =============================== -->
+
+    <section id="contato" class="contact-section">
+
+      <div class="section-title">
+
+        <span>
+          FALE CONOSCO
+        </span>
+
+        <h2>
+          Onde estamos
+        </h2>
+
+      </div>
+
+
+      <div class="contact-container">
+
+        <div class="contact-card">
+
+          <span>
+            📍
+          </span>
+
+          <h3>
+            Endereço
+          </h3>
+
+          <p>
+            Rua Exemplo, 123<br>
+            Joinville - SC
+          </p>
+
+        </div>
+
+
+        <div class="contact-card">
+
+          <span>
+            📱
+          </span>
+
+          <h3>
+            WhatsApp
+          </h3>
+
+          <p>
+            (47) 99999-9999
+          </p>
+
+        </div>
+
+
+        <div class="contact-card">
+
+          <span>
+            🕐
+          </span>
+
+          <h3>
+            Horários
+          </h3>
+
+          <p>
+            Segunda a sexta<br>
+            09:00 às 19:00
+          </p>
+
+        </div>
+
+
+        <div class="contact-card">
+
+          <span>
+            📷
+          </span>
+
+          <h3>
+            Instagram
+          </h3>
+
+          <p>
+            @barbeariapremium
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ==============================
+         RODAPÉ
+    =============================== -->
+
+    <footer>
+
+      <div class="footer-logo">
+        BARBEARIA PREMIUM
+      </div>
+
+      <p>
+        © 2026 Barbearia Premium.
+        Todos os direitos reservados.
+      </p>
+
+    </footer>
+
+  </main>
+
+
+  <!-- ==============================
+       MODAL DO BARBEIRO
+  =============================== -->
+
+  <div id="modal" class="modal">
+
+    <div class="modal-content">
+
+      <span id="modal-close">
+        &times;
+      </span>
+
+      <img
+        src=""
+        alt="Barbeiro"
+        id="modal-img">
+
+      <h2 id="modal-name"></h2>
+
+      <p id="modal-desc"></p>
+
+    </div>
+
+  </div>
+
+
+  <!-- JS -->
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
